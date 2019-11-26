@@ -1,0 +1,30 @@
+{
+	"name": "mern-multiple-checkboxes",
+	"version": "1.0.0",
+	"description": "MERN Multiple Checkboxes",
+	"main": "index.js",
+	"scripts": {
+		"start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mikeludemann/mern-multiple-checkboxes.git"
+	},
+	"keywords": [
+		"mongoDB",
+		"react",
+		"nodejs",
+		"express",
+		"responsive webdesign",
+		"..."
+	],
+	"author": "Mike Ludemann",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mikeludemann/mern-multiple-checkboxes/issues"
+	},
+	"homepage": "https://github.com/mikeludemann/mern-multiple-checkboxes#readme",
+	"devDependencies": {
+		"concurrently": "^5.0.0"
+	}
+}
